@@ -1,0 +1,174 @@
+.price .box{
+    background-color: #efe1e1;
+    justify-content: center;
+    margin: auto;
+    border-radius: 29px;
+    padding: 20px;
+    width: 320px;
+    height: 420px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.price .box .cheak div{
+    display: flex; 
+    padding: 0;  
+}
+
+.price .box .cheak i{
+    color: #a2a1a1;
+}
+
+.price .popular{
+    position: relative;
+    background-color:#5243C2;
+    padding-top: 40px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+.price .popular span{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #fff;
+    background-color: #4031B3;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    border-radius: 29px;
+}
+
+
+.price button{
+    color: #e2239f ;
+}
+
+.price .popular button.end{
+    border-radius: 29px;
+    color: #fff;
+    background-color: #e2239f ;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+    margin-left: 40px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.price .head h6{
+    color:#464444 ;
+    width: 300px;
+    text-align: center;
+}
+
+.price .head{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .price .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .price .box{
+        margin-top: 80px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+ .price .container .cards{
+    width: 110% !important;
+    /* background-color: #6b6060; */
+    margin-left: -5%;
+ }
+
+ .price .box{
+    background-color: #efe1e1;
+    justify-content: center;
+    margin: auto;
+    border-radius: 29px;
+    padding: 20px;
+    width: 240px;
+    height: 450px;
+    margin-top: 120px;
+}
+
+.price .popular{
+    position: relative;
+    background-color:#5243C2;
+    padding-top: 40px;
+    height: 530px;
+    margin-top: 70px;
+}
+
+.price .popular button.end{
+    border-radius: 29px;
+    color: #fff;
+    background-color: #e2239f ;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    /* padding-bottom: 8px !important; */
+}
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .price .container .cards{
+       width: 110% !important;
+       /* background-color: #6b6060; */
+       margin-left: -5%;
+    }
+   
+    .price .box{
+       background-color: #efe1e1;
+       justify-content: center;
+       margin: auto;
+       border-radius: 29px;
+       padding: 20px;
+       width: 300px;
+       height: 490px;
+       margin-top: 120px;
+   }
+   
+   .price .popular{
+       position: relative;
+       background-color:#5243C2;
+       padding-top: 40px;
+       height: 530px;
+       margin-top: 70px;
+   }
+   
+   .price .popular button.end{
+       border-radius: 29px;
+       color: #fff;
+       background-color: #e2239f ;
+       width: 200px;
+       height: 30px;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 10px;
+       margin-left: 0px;
+       /* padding-bottom: 8px !important; */
+   }
+   
+   
+   
+   
+   
+   }

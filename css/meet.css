@@ -1,0 +1,19 @@
+
+.meet .links span{
+    padding: 30px;
+}
+
+@media (min-width: 0) and (max-width: 992px) {
+
+.meet .links{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+
+.meet .links span{
+    padding: 20px;
+    /* width: 100px; */
+}
+
+}

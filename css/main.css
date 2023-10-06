@@ -1,0 +1,14 @@
+.main button{
+    color: #ffff;
+    background-color: #4d0b94;
+}
+
+.main button:hover{
+    background-color:  #e2239f;
+    --bs-btn-hover-border-color: #e2239f;
+    --bs-btn-border-color:#e2239f;
+}
+
+.main h1 span{
+    color: #e2239f;
+}

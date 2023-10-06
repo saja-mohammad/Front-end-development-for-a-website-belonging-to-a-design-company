@@ -1,0 +1,55 @@
+.developer{
+    padding: 100px 0;
+}
+
+
+.developer .contain{
+    height: 200px;
+    background-color: #4d0b94;
+    color: #fff;
+    border-radius: 19px;
+    padding-top: 5%;
+    padding-left: 8%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.developer .contain h6{
+    font-size: 30px;
+    width:500px ;
+}
+
+.developer button{
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    background-color: #e2239f;
+    position: absolute;
+    right: 10%;
+}
+
+
+@media (min-width: 0) and (max-width: 992px) {
+
+.developer .contain{
+    display: flex;
+    flex-direction: column !important;
+}
+
+
+
+.developer .contain h6{
+    font-size: 17px;
+    width:300px ;
+    text-align: center;
+ padding-left:80px;  
+}
+
+
+.developer button{
+bottom:10%;  
+left: 24%;
+}
+
+}

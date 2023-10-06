@@ -1,0 +1,46 @@
+.service{
+    text-align: center;
+}
+
+.service .feature h3{
+    font-size: 20px !important;
+}
+
+.service .feature p{
+    width: 200px;
+    margin: auto;
+}
+
+.service .fea_img{
+    border-radius: 30%;
+    width:  70px;
+    height: 70px;
+}
+
+.service img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.text-bg-primary {
+    color: #fff!important;
+    background-color: transparent!important;
+}
+
+.service .fea_img.a{
+    background-color: #FFCC40;
+}
+
+.service .fea_img.b{
+    background-color: #25D9D9;
+}
+
+.service .fea_img.c{
+    background-color: #0898E7;
+}
+
+.service .fea_img.d{
+    background-color: #FF9066;
+}

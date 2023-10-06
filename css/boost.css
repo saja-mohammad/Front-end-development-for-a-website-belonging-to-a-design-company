@@ -1,0 +1,20 @@
+.boost span{
+    color:  #4d0b94 !important;
+}
+
+.boost button{
+    color:#4d0b94;
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+
+.boost .boot_text{
+    order: 9;
+}
+
+.boost .boot_img{
+    display: flex;
+    order: 2;
+}
+
+}

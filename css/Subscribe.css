@@ -1,0 +1,46 @@
+.Subscribe{
+    background-color: #0C111F;
+    /* margin-top: 100px; */
+    padding-top: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Subscribe p{
+    font-size: 12px;
+}
+
+.Subscribe form{
+    padding: 40px;
+}
+
+.Subscribe input{
+    width: 300px;
+    height: 40px;
+    background-color: #3f4043;
+}
+
+.Subscribe  button{
+    height: 40px;
+    width: 120px;
+    background-color: #241534;
+
+}
+
+.Subscribe .links a{
+text-decoration:none;
+color: #fff;
+padding: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+
+    .Subscribe .links a{
+        padding: 5px;
+        }
+        
+
+}
